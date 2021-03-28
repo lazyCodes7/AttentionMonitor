@@ -11,8 +11,8 @@ as to avoid conflicts with other projects.
 1. Clone the repository
 
     ```
-        $ git clone https://github.com/sanjay-thiyagarajan/personally.git
-        $ cd personally
+        $ git clone https://github.com/lazyCodes7/AttentionMonitor.git
+        $ cd AttentionMonitor
     ```
 2. Create a python 3 virtualenv, and activate the environment.
     ```bash
