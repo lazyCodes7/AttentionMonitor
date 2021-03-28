@@ -1,6 +1,18 @@
 # AttentionMonitor  
   
-A computer vision based attention monitoring system for virtual classrooms  
+## Inspiration
+Online Education is fun for students, but teachers have a tough time managing students. Students tend to distract and they cannot concentrate on their lectures. Our idea was to notify the teacher about the attentivity of the students and would help the teachers to help their students, in turn the students would also pay attention to their lecture as their actions would be notified to their teachers.
+## What it does
+Attention Monitor is an application that tackles the problem of teachers that they face during online classes. It helps teachers in monitoring a class online which becomes difficult in online mode
+## How we built it
+ - This is a web platform build using Django as the backend. 
+ - To integrate the video conferencing feature we used Jitsi API.
+ - Build a telegram bot using telegram API to notify the teachers. 
+ - We also used a computer vision python script to detect the faces and eyes of the students.
+
+## Challenges we ran into
+ - It was really a challenging task to integrate the video conferencing feature into our platform.
+ - We also had a tough time integrating the computer vision script with the platform
 ## Installation Instructions
 The portal is primarily a django based application, and to set it up we require to have 
 python environment with django and other project dependencies installed. Though one can
